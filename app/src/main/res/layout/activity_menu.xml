@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adempolat.tiktoklite.MenuActivity">
+
+    <Button
+        android:id="@+id/btnanimal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/green"
+        android:fontFamily="@font/almendra"
+        android:text="Animal"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btncolourful"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/red"
+        android:fontFamily="@font/almendra"
+        android:text="Colourful"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnanimal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnflower"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/yellow"
+        android:fontFamily="@font/almendra"
+        android:text="Flower"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnanimal" />
+
+    <Button
+        android:id="@+id/btngame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/purple"
+        android:fontFamily="@font/almendra"
+        android:text="Game"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnflower"
+        app:layout_constraintTop_toBottomOf="@+id/btncolourful" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnhuman"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/red"
+        android:fontFamily="@font/almendra"
+        android:text="Human"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnflower" />
+
+    <Button
+        android:id="@+id/btnlife"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/green"
+        android:fontFamily="@font/almendra"
+        android:text="Life"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnhuman"
+        app:layout_constraintTop_toBottomOf="@+id/btngame" />
+
+    <Button
+        android:id="@+id/btnmusic"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/purple"
+        android:fontFamily="@font/almendra"
+        android:text="Music"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhuman" />
+
+    <Button
+        android:id="@+id/btnsky"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/yellow"
+        android:fontFamily="@font/almendra"
+        android:text="Sky"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnmusic"
+        app:layout_constraintTop_toBottomOf="@+id/btnlife" />
+</androidx.constraintlayout.widget.ConstraintLayout>
